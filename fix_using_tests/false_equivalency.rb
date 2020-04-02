@@ -3,7 +3,6 @@ require 'pry'
 
 def get_user_input
   gets.chomp
-  binding.pry
 end
 
 def prompt_user
@@ -11,7 +10,7 @@ def prompt_user
   puts "1.) Eat a hamburger."
   puts "2.) Eat a ham."
 end
-
+binding.pry
 def selection(num)
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
